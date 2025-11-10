@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CD_Notifications" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="leo-Nq-WG1">
+                                <rect key="frame" x="109" y="183" width="175" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Request Permission"/>
+                                <connections>
+                                    <action selector="requestBtnPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cx8-kK-GOG"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="29I-AB-MgC">
+                                <rect key="frame" x="37" y="318" width="320" height="216"/>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8CA-AK-dpZ">
+                                <rect key="frame" x="103" y="634" width="187" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Schedule Notification"/>
+                                <connections>
+                                    <action selector="scheduleBtnPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="abH-fo-6Qy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8CA-AK-dpZ" firstAttribute="top" secondItem="29I-AB-MgC" secondAttribute="bottom" constant="100" id="Gh1-lY-zPI"/>
+                            <constraint firstItem="29I-AB-MgC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GnI-tX-FGZ"/>
+                            <constraint firstItem="leo-Nq-WG1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xsd-17-paS"/>
+                            <constraint firstItem="8CA-AK-dpZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bs3-cy-Uqw"/>
+                            <constraint firstItem="29I-AB-MgC" firstAttribute="top" secondItem="leo-Nq-WG1" secondAttribute="bottom" constant="100" id="vzc-e3-LI5"/>
+                            <constraint firstItem="29I-AB-MgC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="z9u-fi-RE2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="picker" destination="29I-AB-MgC" id="AW8-tg-XOd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="135"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

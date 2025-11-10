@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24412" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24405"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ChiangLucas_HW8" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Uu-qv-7PT">
+                                <rect key="frame" x="0.0" y="118" width="393" height="666"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3Uu-qv-7PT" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="366-vo-0VL"/>
+                            <constraint firstItem="3Uu-qv-7PT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="LNS-j8-QtT"/>
+                            <constraint firstItem="3Uu-qv-7PT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PdK-X8-vMW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3Uu-qv-7PT" secondAttribute="trailing" id="ged-8V-1C2"/>
+                            <constraint firstItem="3Uu-qv-7PT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lMR-FC-LfE"/>
+                            <constraint firstItem="3Uu-qv-7PT" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="vBk-wF-Tk5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="3Uu-qv-7PT" id="yRy-Ve-GLJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.1679389312977" y="130.98591549295776"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

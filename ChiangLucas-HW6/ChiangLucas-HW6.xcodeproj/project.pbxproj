@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A05608982EAEDC2300B4467F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A05608972EAEDC2300B4467F /* FirebaseAuth */; };
+		A056089A2EAEDC2300B4467F /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = A05608992EAEDC2300B4467F /* FirebaseCore */; };
+		A056089C2EAEDC2300B4467F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A056089B2EAEDC2300B4467F /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A056085B2EAEDBB400B4467F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A056083C2EAEDBB200B4467F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A05608432EAEDBB200B4467F;
+			remoteInfo = "ChiangLucas-HW6";
+		};
+		A05608652EAEDBB400B4467F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A056083C2EAEDBB200B4467F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A05608432EAEDBB200B4467F;
+			remoteInfo = "ChiangLucas-HW6";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A05608442EAEDBB200B4467F /* ChiangLucas-HW6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChiangLucas-HW6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A056085A2EAEDBB400B4467F /* ChiangLucas-HW6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChiangLucas-HW6Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05608642EAEDBB400B4467F /* ChiangLucas-HW6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChiangLucas-HW6UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A056086C2EAEDBB400B4467F /* Exceptions for "ChiangLucas-HW6" folder in "ChiangLucas-HW6" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A05608432EAEDBB200B4467F /* ChiangLucas-HW6 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A05608462EAEDBB200B4467F /* ChiangLucas-HW6 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A056086C2EAEDBB400B4467F /* Exceptions for "ChiangLucas-HW6" folder in "ChiangLucas-HW6" target */,
+			);
+			path = "ChiangLucas-HW6";
+			sourceTree = "<group>";
+		};
+		A056085D2EAEDBB400B4467F /* ChiangLucas-HW6Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ChiangLucas-HW6Tests";
+			sourceTree = "<group>";
+		};
+		A05608672EAEDBB400B4467F /* ChiangLucas-HW6UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ChiangLucas-HW6UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A05608412EAEDBB200B4467F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A056089A2EAEDC2300B4467F /* FirebaseCore in Frameworks */,
+				A05608982EAEDC2300B4467F /* FirebaseAuth in Frameworks */,
+				A056089C2EAEDC2300B4467F /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05608572EAEDBB400B4467F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05608612EAEDBB400B4467F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A056083B2EAEDBB200B4467F = {
+			isa = PBXGroup;
+			children = (
+				A05608462EAEDBB200B4467F /* ChiangLucas-HW6 */,
+				A056085D2EAEDBB400B4467F /* ChiangLucas-HW6Tests */,
+				A05608672EAEDBB400B4467F /* ChiangLucas-HW6UITests */,
+				A05608452EAEDBB200B4467F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A05608452EAEDBB200B4467F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A05608442EAEDBB200B4467F /* ChiangLucas-HW6.app */,
+				A056085A2EAEDBB400B4467F /* ChiangLucas-HW6Tests.xctest */,
+				A05608642EAEDBB400B4467F /* ChiangLucas-HW6UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A05608432EAEDBB200B4467F /* ChiangLucas-HW6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A056086D2EAEDBB400B4467F /* Build configuration list for PBXNativeTarget "ChiangLucas-HW6" */;
+			buildPhases = (
+				A05608402EAEDBB200B4467F /* Sources */,
+				A05608412EAEDBB200B4467F /* Frameworks */,
+				A05608422EAEDBB200B4467F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A05608462EAEDBB200B4467F /* ChiangLucas-HW6 */,
+			);
+			name = "ChiangLucas-HW6";
+			packageProductDependencies = (
+				A05608972EAEDC2300B4467F /* FirebaseAuth */,
+				A05608992EAEDC2300B4467F /* FirebaseCore */,
+				A056089B2EAEDC2300B4467F /* FirebaseFirestore */,
+			);
+			productName = "ChiangLucas-HW6";
+			productReference = A05608442EAEDBB200B4467F /* ChiangLucas-HW6.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A05608592EAEDBB400B4467F /* ChiangLucas-HW6Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05608722EAEDBB400B4467F /* Build configuration list for PBXNativeTarget "ChiangLucas-HW6Tests" */;
+			buildPhases = (
+				A05608562EAEDBB400B4467F /* Sources */,
+				A05608572EAEDBB400B4467F /* Frameworks */,
+				A05608582EAEDBB400B4467F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A056085C2EAEDBB400B4467F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A056085D2EAEDBB400B4467F /* ChiangLucas-HW6Tests */,
+			);
+			name = "ChiangLucas-HW6Tests";
+			packageProductDependencies = (
+			);
+			productName = "ChiangLucas-HW6Tests";
+			productReference = A056085A2EAEDBB400B4467F /* ChiangLucas-HW6Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A05608632EAEDBB400B4467F /* ChiangLucas-HW6UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05608752EAEDBB400B4467F /* Build configuration list for PBXNativeTarget "ChiangLucas-HW6UITests" */;
+			buildPhases = (
+				A05608602EAEDBB400B4467F /* Sources */,
+				A05608612EAEDBB400B4467F /* Frameworks */,
+				A05608622EAEDBB400B4467F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A05608662EAEDBB400B4467F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A05608672EAEDBB400B4467F /* ChiangLucas-HW6UITests */,
+			);
+			name = "ChiangLucas-HW6UITests";
+			packageProductDependencies = (
+			);
+			productName = "ChiangLucas-HW6UITests";
+			productReference = A05608642EAEDBB400B4467F /* ChiangLucas-HW6UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A056083C2EAEDBB200B4467F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					A05608432EAEDBB200B4467F = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					A05608592EAEDBB400B4467F = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = A05608432EAEDBB200B4467F;
+					};
+					A05608632EAEDBB400B4467F = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = A05608432EAEDBB200B4467F;
+					};
+				};
+			};
+			buildConfigurationList = A056083F2EAEDBB200B4467F /* Build configuration list for PBXProject "ChiangLucas-HW6" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A056083B2EAEDBB200B4467F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A05608962EAEDC2300B4467F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A05608452EAEDBB200B4467F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A05608432EAEDBB200B4467F /* ChiangLucas-HW6 */,
+				A05608592EAEDBB400B4467F /* ChiangLucas-HW6Tests */,
+				A05608632EAEDBB400B4467F /* ChiangLucas-HW6UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A05608422EAEDBB200B4467F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05608582EAEDBB400B4467F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05608622EAEDBB400B4467F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A05608402EAEDBB200B4467F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05608562EAEDBB400B4467F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05608602EAEDBB400B4467F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A056085C2EAEDBB400B4467F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A05608432EAEDBB200B4467F /* ChiangLucas-HW6 */;
+			targetProxy = A056085B2EAEDBB400B4467F /* PBXContainerItemProxy */;
+		};
+		A05608662EAEDBB400B4467F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A05608432EAEDBB200B4467F /* ChiangLucas-HW6 */;
+			targetProxy = A05608652EAEDBB400B4467F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A056086E2EAEDBB400B4467F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3DG9KU587;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ChiangLucas-HW6/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.ChiangLucas-HW6";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A056086F2EAEDBB400B4467F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3DG9KU587;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ChiangLucas-HW6/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.ChiangLucas-HW6";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A05608702EAEDBB400B4467F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Q3DG9KU587;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A05608712EAEDBB400B4467F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Q3DG9KU587;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A05608732EAEDBB400B4467F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3DG9KU587;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.ChiangLucas-HW6Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChiangLucas-HW6.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChiangLucas-HW6";
+			};
+			name = Debug;
+		};
+		A05608742EAEDBB400B4467F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3DG9KU587;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.ChiangLucas-HW6Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChiangLucas-HW6.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChiangLucas-HW6";
+			};
+			name = Release;
+		};
+		A05608762EAEDBB400B4467F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3DG9KU587;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.ChiangLucas-HW6UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ChiangLucas-HW6";
+			};
+			name = Debug;
+		};
+		A05608772EAEDBB400B4467F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3DG9KU587;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.ChiangLucas-HW6UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ChiangLucas-HW6";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A056083F2EAEDBB200B4467F /* Build configuration list for PBXProject "ChiangLucas-HW6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05608702EAEDBB400B4467F /* Debug */,
+				A05608712EAEDBB400B4467F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A056086D2EAEDBB400B4467F /* Build configuration list for PBXNativeTarget "ChiangLucas-HW6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A056086E2EAEDBB400B4467F /* Debug */,
+				A056086F2EAEDBB400B4467F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A05608722EAEDBB400B4467F /* Build configuration list for PBXNativeTarget "ChiangLucas-HW6Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05608732EAEDBB400B4467F /* Debug */,
+				A05608742EAEDBB400B4467F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A05608752EAEDBB400B4467F /* Build configuration list for PBXNativeTarget "ChiangLucas-HW6UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05608762EAEDBB400B4467F /* Debug */,
+				A05608772EAEDBB400B4467F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A05608962EAEDC2300B4467F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A05608972EAEDC2300B4467F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A05608962EAEDC2300B4467F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A05608992EAEDC2300B4467F /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A05608962EAEDC2300B4467F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		A056089B2EAEDC2300B4467F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A05608962EAEDC2300B4467F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A056083C2EAEDBB200B4467F /* Project object */;
+}

@@ -1,0 +1,1 @@
+Exception	NSException *	"Receiver (<ChiangLucas_HW7.ViewController: 0x10141baf0>) has no segue with identifier 'cellSegue'"	0x0000600000cb2580

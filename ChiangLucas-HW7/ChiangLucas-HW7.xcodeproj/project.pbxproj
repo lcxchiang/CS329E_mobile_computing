@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A04BCD2A2EB955130025491B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A04BCD0B2EB955100025491B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A04BCD122EB955100025491B;
+			remoteInfo = "ChiangLucas-HW7";
+		};
+		A04BCD342EB955130025491B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A04BCD0B2EB955100025491B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A04BCD122EB955100025491B;
+			remoteInfo = "ChiangLucas-HW7";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A04BCD132EB955110025491B /* ChiangLucas-HW7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChiangLucas-HW7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04BCD292EB955130025491B /* ChiangLucas-HW7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChiangLucas-HW7Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04BCD332EB955130025491B /* ChiangLucas-HW7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChiangLucas-HW7UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A04BCD3B2EB955130025491B /* Exceptions for "ChiangLucas-HW7" folder in "ChiangLucas-HW7" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A04BCD122EB955100025491B /* ChiangLucas-HW7 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A04BCD152EB955110025491B /* ChiangLucas-HW7 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A04BCD3B2EB955130025491B /* Exceptions for "ChiangLucas-HW7" folder in "ChiangLucas-HW7" target */,
+			);
+			path = "ChiangLucas-HW7";
+			sourceTree = "<group>";
+		};
+		A04BCD2C2EB955130025491B /* ChiangLucas-HW7Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ChiangLucas-HW7Tests";
+			sourceTree = "<group>";
+		};
+		A04BCD362EB955130025491B /* ChiangLucas-HW7UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ChiangLucas-HW7UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A04BCD102EB955100025491B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04BCD262EB955130025491B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04BCD302EB955130025491B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A04BCD0A2EB955100025491B = {
+			isa = PBXGroup;
+			children = (
+				A04BCD152EB955110025491B /* ChiangLucas-HW7 */,
+				A04BCD2C2EB955130025491B /* ChiangLucas-HW7Tests */,
+				A04BCD362EB955130025491B /* ChiangLucas-HW7UITests */,
+				A04BCD142EB955110025491B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A04BCD142EB955110025491B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A04BCD132EB955110025491B /* ChiangLucas-HW7.app */,
+				A04BCD292EB955130025491B /* ChiangLucas-HW7Tests.xctest */,
+				A04BCD332EB955130025491B /* ChiangLucas-HW7UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A04BCD122EB955100025491B /* ChiangLucas-HW7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A04BCD3C2EB955130025491B /* Build configuration list for PBXNativeTarget "ChiangLucas-HW7" */;
+			buildPhases = (
+				A04BCD0F2EB955100025491B /* Sources */,
+				A04BCD102EB955100025491B /* Frameworks */,
+				A04BCD112EB955100025491B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A04BCD152EB955110025491B /* ChiangLucas-HW7 */,
+			);
+			name = "ChiangLucas-HW7";
+			packageProductDependencies = (
+			);
+			productName = "ChiangLucas-HW7";
+			productReference = A04BCD132EB955110025491B /* ChiangLucas-HW7.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A04BCD282EB955130025491B /* ChiangLucas-HW7Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A04BCD412EB955130025491B /* Build configuration list for PBXNativeTarget "ChiangLucas-HW7Tests" */;
+			buildPhases = (
+				A04BCD252EB955130025491B /* Sources */,
+				A04BCD262EB955130025491B /* Frameworks */,
+				A04BCD272EB955130025491B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A04BCD2B2EB955130025491B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A04BCD2C2EB955130025491B /* ChiangLucas-HW7Tests */,
+			);
+			name = "ChiangLucas-HW7Tests";
+			packageProductDependencies = (
+			);
+			productName = "ChiangLucas-HW7Tests";
+			productReference = A04BCD292EB955130025491B /* ChiangLucas-HW7Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A04BCD322EB955130025491B /* ChiangLucas-HW7UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A04BCD442EB955130025491B /* Build configuration list for PBXNativeTarget "ChiangLucas-HW7UITests" */;
+			buildPhases = (
+				A04BCD2F2EB955130025491B /* Sources */,
+				A04BCD302EB955130025491B /* Frameworks */,
+				A04BCD312EB955130025491B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A04BCD352EB955130025491B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A04BCD362EB955130025491B /* ChiangLucas-HW7UITests */,
+			);
+			name = "ChiangLucas-HW7UITests";
+			packageProductDependencies = (
+			);
+			productName = "ChiangLucas-HW7UITests";
+			productReference = A04BCD332EB955130025491B /* ChiangLucas-HW7UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A04BCD0B2EB955100025491B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					A04BCD122EB955100025491B = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					A04BCD282EB955130025491B = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = A04BCD122EB955100025491B;
+					};
+					A04BCD322EB955130025491B = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = A04BCD122EB955100025491B;
+					};
+				};
+			};
+			buildConfigurationList = A04BCD0E2EB955100025491B /* Build configuration list for PBXProject "ChiangLucas-HW7" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A04BCD0A2EB955100025491B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A04BCD142EB955110025491B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A04BCD122EB955100025491B /* ChiangLucas-HW7 */,
+				A04BCD282EB955130025491B /* ChiangLucas-HW7Tests */,
+				A04BCD322EB955130025491B /* ChiangLucas-HW7UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A04BCD112EB955100025491B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04BCD272EB955130025491B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04BCD312EB955130025491B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A04BCD0F2EB955100025491B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04BCD252EB955130025491B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04BCD2F2EB955130025491B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A04BCD2B2EB955130025491B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A04BCD122EB955100025491B /* ChiangLucas-HW7 */;
+			targetProxy = A04BCD2A2EB955130025491B /* PBXContainerItemProxy */;
+		};
+		A04BCD352EB955130025491B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A04BCD122EB955100025491B /* ChiangLucas-HW7 */;
+			targetProxy = A04BCD342EB955130025491B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A04BCD3D2EB955130025491B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3DG9KU587;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ChiangLucas-HW7/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.ChiangLucas-HW7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A04BCD3E2EB955130025491B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3DG9KU587;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ChiangLucas-HW7/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.ChiangLucas-HW7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A04BCD3F2EB955130025491B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Q3DG9KU587;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A04BCD402EB955130025491B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Q3DG9KU587;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A04BCD422EB955130025491B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3DG9KU587;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.ChiangLucas-HW7Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChiangLucas-HW7.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChiangLucas-HW7";
+			};
+			name = Debug;
+		};
+		A04BCD432EB955130025491B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3DG9KU587;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.ChiangLucas-HW7Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChiangLucas-HW7.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChiangLucas-HW7";
+			};
+			name = Release;
+		};
+		A04BCD452EB955130025491B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3DG9KU587;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.ChiangLucas-HW7UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ChiangLucas-HW7";
+			};
+			name = Debug;
+		};
+		A04BCD462EB955130025491B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3DG9KU587;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.ChiangLucas-HW7UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ChiangLucas-HW7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A04BCD0E2EB955100025491B /* Build configuration list for PBXProject "ChiangLucas-HW7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04BCD3F2EB955130025491B /* Debug */,
+				A04BCD402EB955130025491B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A04BCD3C2EB955130025491B /* Build configuration list for PBXNativeTarget "ChiangLucas-HW7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04BCD3D2EB955130025491B /* Debug */,
+				A04BCD3E2EB955130025491B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A04BCD412EB955130025491B /* Build configuration list for PBXNativeTarget "ChiangLucas-HW7Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04BCD422EB955130025491B /* Debug */,
+				A04BCD432EB955130025491B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A04BCD442EB955130025491B /* Build configuration list for PBXNativeTarget "ChiangLucas-HW7UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04BCD452EB955130025491B /* Debug */,
+				A04BCD462EB955130025491B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A04BCD0B2EB955100025491B /* Project object */;
+}
