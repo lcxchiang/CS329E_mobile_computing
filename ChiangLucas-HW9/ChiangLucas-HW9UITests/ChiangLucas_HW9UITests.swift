@@ -1,17 +1,13 @@
 //
-//  ChiangLucas_HW8UITests.swift
-//  ChiangLucas-HW8UITests
+//  ChiangLucas_HW9UITests.swift
+//  ChiangLucas-HW9UITests
 //
-//  Created by Lucas Chiang on 11/10/25.
+//  Created by Lucas Chiang on 11/21/25.
 //
-
-// Project: LastnameFirstname-HW8
-// EID: lmc4866
-// Course: CS329E
 
 import XCTest
 
-final class ChiangLucas_HW8UITests: XCTestCase {
+final class ChiangLucas_HW9UITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,17 +1,13 @@
 //
-//  ChiangLucas_HW8UITestsLaunchTests.swift
-//  ChiangLucas-HW8UITests
+//  ChiangLucas_HW9UITestsLaunchTests.swift
+//  ChiangLucas-HW9UITests
 //
-//  Created by Lucas Chiang on 11/10/25.
+//  Created by Lucas Chiang on 11/21/25.
 //
-
-// Project: LastnameFirstname-HW8
-// EID: lmc4866
-// Course: CS329E
 
 import XCTest
 
-final class ChiangLucas_HW8UITestsLaunchTests: XCTestCase {
+final class ChiangLucas_HW9UITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

@@ -5,6 +5,10 @@
 //  Created by Lucas Chiang on 11/10/25.
 //
 
+// Project: LastnameFirstname-HW8
+// EID: lmc4866
+// Course: CS329E
+
 import Testing
 @testable import ChiangLucas_HW8
 

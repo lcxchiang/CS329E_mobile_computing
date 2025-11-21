@@ -1,13 +1,9 @@
 //
 //  AppDelegate.swift
-//  ChiangLucas-HW8
+//  ChiangLucas-HW9
 //
-//  Created by Lucas Chiang on 11/10/25.
+//  Created by Lucas Chiang on 11/21/25.
 //
-
-// Project: LastnameFirstname-HW8
-// EID: lmc4866
-// Course: CS329E
 
 import UIKit
 

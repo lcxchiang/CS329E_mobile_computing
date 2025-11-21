@@ -5,6 +5,10 @@
 //  Created by Lucas Chiang on 11/10/25.
 //
 
+// Project: LastnameFirstname-HW8
+// EID: lmc4866
+// Course: CS329E
+
 import UIKit
 import UserNotifications
 
@@ -16,7 +20,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         button.setImage(UIImage(named: "uttower"), for: .normal)
-        
+
         // Ask for Notification Authorization
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound]) { granted, error in
             if granted {
@@ -27,13 +31,13 @@ class ViewController: UIViewController {
         }
 
     }
-    
+
     @IBAction func buttonPressed(_ sender: Any) {
-        
+
         // Increment the click counter by 1
         self.clickCounter += 1
         print(self.clickCounter)
-        
+
         if clickCounter % 4 == 0 {
             print("Scheduling Notification!")
             // create content
@@ -44,7 +48,7 @@ class ViewController: UIViewController {
             // create trigger
             let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 8, repeats: false)
             // create request
-            let request = UNNotificationRequest(identifier: "myNotification", content: content, trigger: trigger)
+            let request = UNNotificationRequest(identifier: "click_\(clickCounter)", content: content, trigger: trigger)
             // add request
             UNUserNotificationCenter.current().add(request)
         }
@@ -96,8 +100,5 @@ class ViewController: UIViewController {
                 }
             )
         }
-        
     }
-
 }
-
